@@ -1,6 +1,7 @@
 {% set name = "fsleyes" %}
-{% set version = "1.19.0" %}
-{% set sha256 = "6749aef609cc5454d70847b33c601689de4693874b192187accd49936f54e21a" %}
+{% set version = "1.20.0" %}
+{% set python_min = "3.11" %}
+{% set sha256 = "4097ea7bc82fe7c3df6dfbe3f213ea0503d00be5aaa068d3c0297ade68c5695c" %}
 
 package:
   name: {{ name }}
@@ -82,6 +83,7 @@ requirements:
     - scipy >=0.18
     - tornado >=5
     - trimesh >=2.37.29
+    - trx-python >=0.4.0
     - wxnatpy >=0.4.0
     - wxpython >=4
     - xnat >=0.3.3
