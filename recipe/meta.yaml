@@ -1,5 +1,5 @@
 {% set name = "fsleyes" %}
-{% set version = "1.20.0" %}
+{% set version = "1.20.1" %}
 {% set python_min = "3.11" %}
 {% set sha256 = "4097ea7bc82fe7c3df6dfbe3f213ea0503d00be5aaa068d3c0297ade68c5695c" %}
 
